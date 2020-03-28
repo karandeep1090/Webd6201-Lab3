@@ -111,6 +111,7 @@ let app;
         }
     }
 
+
     function activateNavbar()
     {
         let navLinks = [];
@@ -383,7 +384,7 @@ let app;
     function DisplayTaskList()
     {
         document.title = "WEBD6201 - Task List";
-
+        
         // Task 1 a
         $("#newTaskButton").on("click", function(){
             let inputText = $("#taskTextInput").val();
